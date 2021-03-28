@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ef8c86"
+    android:orientation="vertical"
+    android:padding="15dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:gravity="center"
+        android:text="Currency Converter App"
+        android:textColor="#2f1f2b"
+        android:textFontWeight="700"
+        android:textSize="32dp" />
+
+    <EditText
+        android:id="@+id/edtUsa"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="120dp"
+        android:hint="Input the USD."
+        android:textColor="#fff"
+        android:textSize="18dp"
+        android:gravity="center"/>
+    <Button
+        android:id="@+id/btnConverter"
+        android:layout_width="328dp"
+        android:layout_height="68dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#2f1f2b"
+        android:gravity="center"
+        android:text="Coverter"
+        android:textSize="16dp" />
+    <TextView
+        android:id="@+id/tvUsd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="USD"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="50dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <TextView
+        android:id="@+id/tvThb"
+        android:text="THB"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_marginTop="20dp"
+        android:layout_gravity="center"
+        android:gravity="center"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom"
+            android:gravity="bottom"
+            android:text="Chanchon Pansuwan 621310112"
+            android:textColor="#000"
+            android:textFontWeight="700"
+            android:textSize="16dp" />
+    </LinearLayout>
+
+
+</LinearLayout>
